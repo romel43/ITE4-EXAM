@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    <title>FINAL EXAM</title>
+  </head>
+  <body> 
+    <header class="header bg-white">
+      <div class="container px-0 px-lg-3">
+        <nav  class="navbar navbar-expand-lg navbar-light py-3 px-lg-0"><a class="navbar-brand" href=""><span class="font-weight-bold text-uppercase text-dark">BUYO GAME EXAM</span></a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+              </li>
+        </form>
+    </nav>
+    <div class="container">
+    <h1 style="text-align:center;">Rock Paper Scisscors</h1>
+     <br>
+    <h2  style="text-align:center;">GAME</h2>
+      <br>
+    <div class="container">
+      <div class="row text-center justify-content-center">
+      <form action='result' method='get'>  
+        <h2  style="text-align:center;">Choice Your Move</h2>
+        <select name = 'choice' class="custom-select btn-white">
+          <option style="text-align:center;" value="">Choice Here</option>
+          <option class="btn btn-white" style="text-align:center;" value="R">ROCK</option>
+          <option class="btn btn-white" style="text-align:center;" value="P">PAPER</option>
+          <option class="btn btn-white" style="text-align:center;" value="S">SCISSORS</option>
+        </select>
+        <div class="centre">
+        <button type="submit" class="btn btn-dark mt-5">START GAME</button>
+      </div>
+      </form>
+    </div>
+    </div>
+    <h2 style="text-align:center;"></h2>
+    <br>
+    <h3 style="text-align:center;"></h3>
+    <br>
+    <h3 style="text-align:center;">Computer Select   :  {{ device }} </h3>
+    <br>
+    <h3 style="text-align:center;">{{ result }}</h3>
+    <style>
+      .container {
+        height: 200px;
+        position: relative;
+        
+      }
+      
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    </style>
+    <br>
+    <div class="container">
+      <div class="center">
+        <a href = ""> <button type="submit" class="btn btn-dark mt-1"> Play Here Again</button></a>
+      </div>
+    </div>
+  </body>
+  </html>
